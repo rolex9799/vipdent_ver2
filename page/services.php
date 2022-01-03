@@ -1,4 +1,3 @@
-
 <div class="banner">
 
   <h1>Welcome! Website undergoes development :)</h1>
