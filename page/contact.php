@@ -11,11 +11,6 @@ $result2 = $conn->query($sql);
 ?> -->
 
 
-<div class="banner">
-
-<h1>Sazinities ar mums!</h1>
-
-</div>
 
 <div class="form-panel">
 

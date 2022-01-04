@@ -25,6 +25,7 @@ $key = $pgdata[$pgname]['keywords'];
   <style>
     <?php include 'style.css'; ?>
     <?php include 'navbar.css'; ?>
+    <?php include 'forma.css'; ?>
   </style>
 
 <title>
