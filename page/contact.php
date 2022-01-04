@@ -1,3 +1,16 @@
+<!-- <?php 
+
+require_once('./partials/config.php');
+
+$kontakti = isset($_GET['kontakti']) ? trim(strip_tags($_GET['kontakti'])) : 1;
+
+$sql = "SELECT * FROM contacts WHERE id = $kontakti";
+
+
+$result2 = $conn->query($sql);
+?> -->
+
+
 <div class="banner">
 
 <h1>Sazinities ar mums!</h1>
@@ -11,7 +24,7 @@
 </h1>
 
 
-<form method="POST" action="create-message.php">
+<form method="POST" action="message-sent.php">
 
 <div class="form-group">
   <label for="name">Vārds: </label>
