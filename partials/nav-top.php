@@ -1,8 +1,11 @@
 <nav class="navigation-bar">
 
-<div class="nav-items">
+<div class="nav-bar-wrapper">
+<img class="navbar-logo" src="assets/logo/logo.png"></img>
 
-<img class="navbar-logo nav-items" src="assets/logo/logo.png"></img>
+<div class="nav-item-block">
+
+
 
 <a class="nav-items" href="./index.php">Sākums</a>
 
@@ -15,6 +18,6 @@
 
 </div>
 
-
+</div>
 
 </nav>
