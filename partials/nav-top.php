@@ -1,23 +1,11 @@
 <nav class="navigation-bar">
 
-<div class="nav-bar-wrapper">
-<img class="navbar-logo" src="assets/logo/logo.png"></img>
-
-<div class="nav-item-block">
-
-
-
-<a class="nav-items" href="./index.php">Sākums</a>
-
-<a class="nav-items" href="./?pg=services" class="nav-item">Pakalpojumi</a>
-
-<a class="nav-items" href="./?pg=prices" class="nav-item">Cenrādis</a>
-
-<a class="nav-items" href="./?pg=contact" class="nav-item">Kontakti</a>
-
-
-</div>
-
-</div>
+<ul>
+<img class="nav-logo" src="assets/logo/logo.png"></img>
+  <li><a href="./index.php">Sākums</a></li>
+  <li><a href="./?pg=services">Pakalpojumi</a></li>
+  <li><a href="./?pg=prices">Cenrādis</a></li>
+  <li><a href="./?pg=contact">Kontakti</a></li>
+</ul>
 
 </nav>
