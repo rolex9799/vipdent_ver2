@@ -25,6 +25,7 @@ $key = $pgdata[$pgname]['keywords'];
   <style>
     <?php include 'style.css'; ?>
     <?php include 'navbar.css'; ?>
+    <?php include 'forma.css'; ?>
   </style>
 
 <title>
@@ -43,8 +44,12 @@ $key = $pgdata[$pgname]['keywords'];
   elseif ($pgname == 'prices'){
     echo include_once('./page/prices.php');
   }
-  elseif($pgname == 'contact'){
-    echo include_once('./page/contact.php');
+  elseif($pgname == 'booking'){
+    echo include_once('./page/booking.php');
+
+  }
+  elseif($pgname == 'contacts'){
+    echo include_once('./page/contacts.php');
 
   }
   else {
