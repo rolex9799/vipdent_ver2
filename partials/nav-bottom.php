@@ -9,12 +9,12 @@
           Instagram
         </a>
 
-        <a href="https://www.facebook.com/rolands.repetto" target="_blank" class="link-socials">
+        <a href="https://www.facebook.com/rolands.repetto" target="_blank">
           <i class="fab fa-facebook"></i>
           Facebook
         </a>  
 
-        <a href="https://www.linkedin.com/in/rolands-repetto" target="_blank" class="link-socials">
+        <a href="https://www.linkedin.com/in/rolands-repetto" target="_blank">
           <i class="fab fa-linkedin"></i>
           Linkedin
         </a>  

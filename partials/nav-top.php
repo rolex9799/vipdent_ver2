@@ -2,13 +2,15 @@
 
 <div class="nav-items">
 
-<a class="nav-item" href="./index.php">Sakums</a>
+<img class="navbar-logo nav-items" src="assets/logo/logo.png"></img>
 
-<a href="./?pg=services" class="nav-item">Pakalpojumi</a>
+<a class="nav-items" href="./index.php">Sākums</a>
 
-<a href="./?pg=prices" class="nav-item">Cenradis</a>
+<a class="nav-items" href="./?pg=services" class="nav-item">Pakalpojumi</a>
 
-<a href="./?pg=contact" class="nav-item">Kontakti</a>
+<a class="nav-items" href="./?pg=prices" class="nav-item">Cenrādis</a>
+
+<a class="nav-items" href="./?pg=contact" class="nav-item">Kontakti</a>
 
 
 </div>
