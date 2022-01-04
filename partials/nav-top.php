@@ -13,7 +13,9 @@
 
 <a class="nav-items" href="./?pg=prices" class="nav-item">Cenrādis</a>
 
-<a class="nav-items" href="./?pg=contact" class="nav-item">Kontakti</a>
+<a class="nav-items" href="./?pg=booking" class="nav-item">Pierakstīties</a>
+
+<a class="nav-items" href="./?pg=contacts" class="nav-item">Kontakti</a>
 
 
 </div>

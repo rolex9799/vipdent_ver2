@@ -23,11 +23,18 @@ $pgdata['prices'] = [
   'keywords' => 'Prices, Page',
 ];
 
-$pgdata['contact'] = [
+$pgdata['booking'] = [
 
-  'title' => 'Contact page',
-  'description' => 'Contact description',
-  'keywords' => 'Contact, Page',
+  'title' => 'Booking page',
+  'description' => 'Booking description',
+  'keywords' => 'Booking, Page',
+];
+
+$pgdata['contacts'] = [
+
+  'title' => 'Contacts page',
+  'description' => 'Contacts description',
+  'keywords' => 'Contacts Page',
 ];
 
 

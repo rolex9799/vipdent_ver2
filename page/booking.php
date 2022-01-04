@@ -11,10 +11,10 @@ $result2 = $conn->query($sql);
 ?> -->
 
 
-
+  
 <div class="form-panel">
 
-<h1>
+<h1 class="form">
   Aizsūtitiet mums ziņu!
 </h1>
 
@@ -53,5 +53,6 @@ $result2 = $conn->query($sql);
 <input class="submit btn" type="submit" value="Nosūtīt">
 
 </form>
+
 
 </div>
