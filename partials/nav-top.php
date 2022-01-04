@@ -6,6 +6,7 @@
   <li><a href="./?pg=services">Pakalpojumi</a></li>
   <li><a href="./?pg=prices">Cenrādis</a></li>
   <li><a href="./?pg=contact">Kontakti</a></li>
+  <li><a href="./?pg=booking">Pieraksts</a></li>
 </ul>
 
 
