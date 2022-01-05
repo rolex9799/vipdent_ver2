@@ -8,7 +8,7 @@ $fourth-color: #5390d9;
 $primary-color-txt: #7400b8;
 $secondary-color-txt: #5e60ce;
 $tertiary-color-txt: #80ffdb;
-nav {
+footer {
   ul {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -65,10 +65,23 @@ nav {
     }
   }
 
-  .nav-logo {
+  .subsection {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: white;
+  }
+  .section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: white;
+  }
+  h3 {
+    align-self: center;
+  }
+  img {
+    height: 50px;
     width: auto;
-    height: 90px;
-    padding: 15px;
-    justify-content: flex-end;
   }
 }
