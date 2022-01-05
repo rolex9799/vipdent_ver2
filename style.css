@@ -8,6 +8,13 @@ body {
   margin: 0;
   background-color: #f9c5d5;
   font-family: "Poppins", sans-serif;
+  background: rgb(60, 63, 255);
+  background: linear-gradient(
+    153deg,
+    rgb(178, 179, 255) 0%,
+    rgb(224, 236, 255) 53%,
+    rgb(255, 255, 255) 100%
+  );
 }
 
 a {
@@ -21,8 +28,6 @@ h1 {
 }
 
 footer {
-  background-color: brown;
-  padding: 20px;
   position: block;
   bottom: 0;
 }

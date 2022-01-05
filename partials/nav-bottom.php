@@ -1,28 +1,26 @@
-<footer>    
-    
-<div class="footer-content">
+<footer>   
+<div class="section"> 
+<div class="subsection"> 
+   <h3>Socials</h3>  
+<ul>
+<li><a href="https://www.facebook.com/vipdentist" target="_blank">
+          <img src="assets/icon-facebook.png" alt="facebook.com/vipdentist"></img>
+        </a> </li>
+</ul>  
+</div> 
 
-  <div class="media-items">
-    
-        <a href="https://www.instagram.com/rolex5799/" class="link-socials" target="_blank">
-          <i class="fab fa-instagram"></i>
-          Instagram
-        </a>
 
-        <a href="https://www.facebook.com/rolands.repetto" target="_blank">
-          <i class="fab fa-facebook"></i>
-          Facebook
-        </a>  
-
-        <a href="https://www.linkedin.com/in/rolands-repetto" target="_blank">
-          <i class="fab fa-linkedin"></i>
-          Linkedin
-        </a>  
- 
-  </div>
-  
+<div class="subsection">
+<h3>Lapas saturs</h3>  
+<ul>
+  <li><a href="./?pg=services">Pakalpojumi</a></li>
+  <li><a href="./?pg=prices">Cenrādis</a></li>
+  <li><a href="./?pg=contact">Kontakti</a></li>
+  <li><a href="./?pg=booking">Pieraksts</a></li>
+</ul>
 </div>
 
 
+</div>
 </footer>
  
