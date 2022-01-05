@@ -5,7 +5,7 @@
   <li><a href="./index.php">Sākums</a></li>
   <li><a href="./?pg=services">Pakalpojumi</a></li>
   <li><a href="./?pg=prices">Cenrādis</a></li>
-  <li><a href="./?pg=contact">Kontakti</a></li>
+  <li><a href="./?pg=contacts">Kontakti</a></li>
   <li><a href="./?pg=booking">Pieraksts</a></li>
 </ul>
 
