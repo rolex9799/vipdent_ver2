@@ -39,6 +39,8 @@ nav {
         color: $fourth-color;
         text-transform: uppercase;
         transition: 0.5s;
+        font-weight: 300;
+        font-size: 1.1rem;
 
         &::after {
           position: absolute;
