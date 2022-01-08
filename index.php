@@ -57,7 +57,9 @@ $key = $pgdata[$pgname]['keywords'];
     echo file_get_contents('./page/' . $pgname . '.html');
   }
   ?>
-  <?php include('./partials/nav-bottom.php')?>
+
+<?php include('./partials/nav-bottom.php')?>
+
 <script src="scripts.js"></script>
 </body>
 </html>

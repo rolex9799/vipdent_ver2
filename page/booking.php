@@ -1,4 +1,4 @@
-<!-- <?php 
+<?php 
 
 require_once('./partials/config.php');
 
@@ -8,7 +8,7 @@ $sql = "SELECT * FROM contacts WHERE id = $kontakti";
 
 
 $result2 = $conn->query($sql);
-?> -->
+?>
 
 
   

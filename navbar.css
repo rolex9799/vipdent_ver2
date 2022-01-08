@@ -32,6 +32,8 @@ nav ul li a {
   text-transform: uppercase;
   -webkit-transition: 0.5s;
   transition: 0.5s;
+  font-weight: 300;
+  font-size: 1.1rem;
 }
 
 nav ul li a::after {
