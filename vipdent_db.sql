@@ -1,11 +1,11 @@
 -- phpMyAdmin SQL Dump
--- version 5.0.4
+-- version 5.1.1
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost
--- Erstellungszeit: 04. Jan 2022 um 12:33
--- Server-Version: 10.4.17-MariaDB
--- PHP-Version: 7.4.12
+-- Generation Time: Jan 15, 2022 at 08:03 PM
+-- Server version: 10.4.21-MariaDB
+-- PHP Version: 8.0.14
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
@@ -18,13 +18,13 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Datenbank: `vipdent_db`
+-- Database: `vipdent_db`
 --
 
 -- --------------------------------------------------------
 
 --
--- Tabellenstruktur für Tabelle `zinas`
+-- Table structure for table `zinas`
 --
 
 CREATE TABLE `zinas` (
@@ -33,36 +33,35 @@ CREATE TABLE `zinas` (
   `surname` varchar(256) NOT NULL,
   `email` varchar(256) NOT NULL,
   `message` text NOT NULL DEFAULT current_timestamp(),
-  `created_at` timestamp NOT NULL DEFAULT current_timestamp() ON UPDATE current_timestamp()
+  `created at` timestamp NOT NULL DEFAULT current_timestamp() ON UPDATE current_timestamp()
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 --
--- Daten für Tabelle `zinas`
+-- Dumping data for table `zinas`
 --
 
-INSERT INTO `zinas` (`id`, `name`, `surname`, `email`, `message`, `created_at`) VALUES
-(1, ' Rolands', 'Repetto', 'rolandsrepetto@gmail.com', 'Sveiki!', '2022-01-04 11:13:51'),
-(2, ' Elijs', 'Robals', 'elijs.r@gmail.com', 'Hello World!', '2022-01-04 11:14:19');
+INSERT INTO `zinas` (`id`, `name`, `surname`, `email`, `message`, `created at`) VALUES
+(1, ' Rolands', 'Repetto', 'rolandsrepetto@gmail.com', 'ddd\r\n', '2022-01-15 19:03:06');
 
 --
--- Indizes der exportierten Tabellen
+-- Indexes for dumped tables
 --
 
 --
--- Indizes für die Tabelle `zinas`
+-- Indexes for table `zinas`
 --
 ALTER TABLE `zinas`
   ADD PRIMARY KEY (`id`);
 
 --
--- AUTO_INCREMENT für exportierte Tabellen
+-- AUTO_INCREMENT for dumped tables
 --
 
 --
--- AUTO_INCREMENT für Tabelle `zinas`
+-- AUTO_INCREMENT for table `zinas`
 --
 ALTER TABLE `zinas`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
