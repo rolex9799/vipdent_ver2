@@ -6,6 +6,7 @@
 
 html {
   height: 100%;
+  width: 100%;
   background: #3c3fff;
   background: linear-gradient(153deg, #b2b3ff 0%, #e0ecff 53%, white 100%);
   background-size: cover;

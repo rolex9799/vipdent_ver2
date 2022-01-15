@@ -20,7 +20,7 @@ $key = $pgdata[$pgname]['keywords'];
   <meta name="description" content="<?php echo $desc; ?>">
   <meta name="keywords" content="<?php echo $key; ?>">
 
-
+  <meta name="format-detection" content="telephone=no">
 
   <style>
     <?php include 'style.css'; ?>

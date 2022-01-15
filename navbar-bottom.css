@@ -23,7 +23,7 @@ footer ul {
   align-items: center;
   list-style-type: none;
   margin: 0 !important;
-  padding: 0 !important;
+  padding: 0;
 }
 
 footer ul li {
@@ -117,17 +117,33 @@ span {
 }
 
 @media (max-width: 720px) {
-  .subsection {
+  footer .subsection {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
   }
-  .section {
+  footer .subsection ul {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  footer .subsection ul li {
+    padding: 0 5px;
+  }
+  footer .section {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+  }
+  footer .section ul {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  footer .section ul li {
+    padding: 1.3rem 5px;
   }
 }
 /*# sourceMappingURL=navbar-bottom.css.map */

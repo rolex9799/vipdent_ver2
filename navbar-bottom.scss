@@ -32,7 +32,7 @@ footer {
     list-style-type: none;
 
     margin: 0 !important;
-    padding: 0 !important;
+    padding: 0;
 
     li {
       padding: 0 15px;
@@ -99,10 +99,24 @@ span {
 }
 
 @media (max-width: 720px) {
-  .subsection {
-    flex-direction: column;
-  }
-  .section {
-    flex-direction: column;
+  footer {
+    .subsection {
+      flex-direction: column;
+      ul {
+        justify-content: center;
+        li {
+          padding: 0 5px;
+        }
+      }
+    }
+    .section {
+      flex-direction: column;
+      ul {
+        justify-content: center;
+        li {
+          padding: 1.3rem 5px;
+        }
+      }
+    }
   }
 }
