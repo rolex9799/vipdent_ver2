@@ -97,3 +97,12 @@ span {
   background-color: white;
   font-weight: 100;
 }
+
+@media (max-width: 720px) {
+  .subsection {
+    flex-direction: column;
+  }
+  .section {
+    flex-direction: column;
+  }
+}

@@ -115,4 +115,19 @@ span {
   background-color: white;
   font-weight: 100;
 }
+
+@media (max-width: 720px) {
+  .subsection {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .section {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
 /*# sourceMappingURL=navbar-bottom.css.map */
