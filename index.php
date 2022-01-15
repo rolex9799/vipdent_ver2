@@ -62,6 +62,7 @@ $key = $pgdata[$pgname]['keywords'];
 
 <?php include('./partials/nav-bottom.php')?>
 
-<script src="scripts.js"></script>
+<!-- <script src="scripts.js"></script> -->
+<script src="navbar-top.js"></script>
 </body>
 </html>

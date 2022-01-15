@@ -84,6 +84,8 @@ nav .nav-logo {
   height: 3px;
   background-color: black;
   margin: 7px;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
 }
 
 @media screen and (max-width: 820px) {
@@ -95,7 +97,7 @@ nav .nav-logo {
   nav ul {
     position: absolute;
     right: 0;
-    height: 50vh;
+    height: 45vh;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -107,9 +109,35 @@ nav .nav-logo {
         -ms-flex-align: center;
             align-items: center;
     width: 100%;
+    -webkit-transform: translateY(-110%);
+            transform: translateY(-110%);
+    -webkit-transition: -webkit-transform 0.5s ease-in;
+    transition: -webkit-transform 0.5s ease-in;
+    transition: transform 0.5s ease-in;
+    transition: transform 0.5s ease-in, -webkit-transform 0.5s ease-in;
   }
   .burger {
     display: block;
   }
+}
+
+.nav-active {
+  -webkit-transform: translateX(0%);
+          transform: translateX(0%);
+  margin-top: 30px;
+}
+
+.toggle .line1 {
+  -webkit-transform: rotate(-45deg) translate(-5px, 6px);
+          transform: rotate(-45deg) translate(-5px, 6px);
+}
+
+.toggle .line2 {
+  opacity: 0;
+}
+
+.toggle .line3 {
+  -webkit-transform: rotate(45deg) translate(-5px, -6px);
+          transform: rotate(45deg) translate(-5px, -6px);
 }
 /*# sourceMappingURL=navbar.css.map */
