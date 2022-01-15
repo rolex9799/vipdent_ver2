@@ -1,5 +1,6 @@
 <nav class="navigation-bar">
 
+
 <ul>
 <img class="nav-logo" src="assets/logo/logo.png"></img>
   <li><a href="./index.php">Sākums</a></li>
@@ -10,6 +11,8 @@
 </ul>
 
 
+<div class="logo_and_burger">
+<img class="nav-logo-responsive" src="assets/logo/logo.png"></img>
 
 <div class="burger">
 
@@ -18,5 +21,9 @@
 <div class="line3"></div>
 
 </div>
+
+
+</div>
+
 </nav>
 

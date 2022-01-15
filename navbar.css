@@ -74,6 +74,10 @@ nav .nav-logo {
           justify-content: flex-end;
 }
 
+nav .nav-logo-responsive {
+  display: none;
+}
+
 .burger {
   display: none;
   cursor: pointer;
@@ -88,11 +92,24 @@ nav .nav-logo {
   transition: all 0.3s ease;
 }
 
+.logo_and_burger {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: auto;
+  padding-left: 70%;
+}
+
 @media screen and (max-width: 820px) {
   nav {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    height: 100px;
+    background-color: white;
   }
   nav ul {
     position: absolute;
@@ -124,7 +141,32 @@ nav .nav-logo {
 .nav-active {
   -webkit-transform: translateX(0%);
           transform: translateX(0%);
-  margin-top: 30px;
+}
+
+@-webkit-keyframes navLinkFade {
+  from {
+    opacity: 0;
+    -webkit-transform: translateX(50px);
+            transform: translateX(50px);
+  }
+  to {
+    opacity: 1;
+    -webkit-transform: translateX(0px);
+            transform: translateX(0px);
+  }
+}
+
+@keyframes navLinkFade {
+  from {
+    opacity: 0;
+    -webkit-transform: translateX(50px);
+            transform: translateX(50px);
+  }
+  to {
+    opacity: 1;
+    -webkit-transform: translateX(0px);
+            transform: translateX(0px);
+  }
 }
 
 .toggle .line1 {
