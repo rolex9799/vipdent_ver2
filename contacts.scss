@@ -1,0 +1,25 @@
+.content {
+  width: 100%;
+}
+
+.contacts {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: stretch;
+  align-content: center;
+
+  :nth-child(n) {
+    padding: 0 20px 0 20px;
+  }
+}
+
+@media (max-width: 720px) {
+  .contacts {
+    align-content: flex-start;
+    :nth-child(n) {
+      min-width: 100%;
+    }
+  }
+}
