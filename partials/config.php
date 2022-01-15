@@ -15,4 +15,3 @@ if($conn -> connect_error){
 
 ?>
 
-<h1>Zina nosutiita!</h1>
