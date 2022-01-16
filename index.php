@@ -56,7 +56,7 @@ $key = $pgdata[$pgname]['keywords'];
 
   }
   else {
-    echo file_get_contents('./page/' . $pgname . '.html');
+    echo file_get_contents('./page/' . $pgname . '.php');
   }
   ?>
 

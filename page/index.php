@@ -1,4 +1,4 @@
-
+<main>
 <div class="banner">
 
   <h1>Welcome! Website undergoes development :)</h1>
@@ -31,3 +31,4 @@ Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones n
 </ul>
 </div>
 
+</main>
