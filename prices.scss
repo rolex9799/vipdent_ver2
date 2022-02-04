@@ -1,0 +1,29 @@
+h1 {
+  text-align: center;
+  padding: 2rem;
+}
+
+.price-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+
+  .price-subitem1 {
+    text-align: end;
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+  .price-subitem2 {
+    text-align: start;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+.price-item {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
