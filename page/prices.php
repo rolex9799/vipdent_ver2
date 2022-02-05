@@ -1,4 +1,4 @@
-<h1>
+<h1 class="h1-prices">
     Zobu ārstēšanas cenrādis
 </h1>
 

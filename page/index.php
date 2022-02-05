@@ -1,34 +1,39 @@
 <main>
+
+<div class="body-container">
+
 <div class="banner">
 
-  <h1>Welcome! Website undergoes development :)</h1>
+  <h1>Sveicināti klīnikā VipDent!</h1>
 </div>
+
 
 <p>
 
-  The navbar will stick to the top when you reach its scroll position.
-
-Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.
-
-Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.
-
-Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.
-
-Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.
-
-Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.
-
-Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.
-
-Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.
+  Profesionāla attieksme
+  Augstas kvalitātes zobārstniecība
+  Ar modernu Itālijā un Vācijā ražotu aprīkojumu!
 </p>
 
+<div class="contact-us">
+
+<h3>Sazinies ar mums!</h3>
+<p>Vai Jums ir jautājumi?</p>  
+<p>Vēlies pierakstīties?</p>
+<button onclick="location.href = './?pg=booking'">Rakstīt</button>
+</div>
+
+
+
+
 <div class="ins">
-  <strong>Sadarbībā ar:</strong>
+  <h3>Sadarbībā ar:</h3>
 <ul>
   <li><img src="assets/compensa.png"></img></li>
   <li><img src="assets/gjensidig.png"></img></li>
 </ul>
+</div>
+
 </div>
 
 </main>

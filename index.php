@@ -57,6 +57,7 @@ $key = $pgdata[$pgname]['keywords'];
     echo include_once('./page/contacts.php');
 
   }
+
   else {
     echo file_get_contents('./page/' . $pgname . '.php');
   }

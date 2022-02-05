@@ -5,8 +5,8 @@ $secondary-color: #64dfdf;
 $tertiary-color: #6930c3;
 $fourth-color: #5390d9;
 
-$primary-color-txt: #7400b8;
-$secondary-color-txt: #5e60ce;
+$primary-color-txt: rgb(68, 71, 255);
+$secondary-color-txt: rgb(78, 79, 194);
 $tertiary-color-txt: #80ffdb;
 nav {
   ul {
@@ -41,6 +41,7 @@ nav {
         transition: 0.5s;
         font-weight: 300;
         font-size: 1.1rem;
+        color: $secondary-color-txt;
 
         &::after {
           position: absolute;
@@ -75,15 +76,13 @@ nav {
   }
 
   .nav-logo-responsive {
-   display: none;
+    display: none;
   }
-
 }
 
-.burger{
+.burger {
   display: none;
   cursor: pointer;
-  
 }
 .burger div {
   width: 25px;
@@ -93,15 +92,16 @@ nav {
   transition: all 0.3s ease;
 }
 
-.logo_and_burger{
+.logo_and_burger {
   display: flex;
   align-items: center;
-  margin: auto;
-  padding-left: 70%;
+  justify-content: space-evenly;
+  margin: 0;
+  width: 100%;
 }
 
-@media screen and (max-width: 820px){
-  nav{
+@media screen and (max-width: 820px) {
+  nav {
     display: flex;
     height: 100px;
     background-color: white;
@@ -117,46 +117,41 @@ nav {
     width: 100%;
     transform: translateY(-110%);
     transition: transform 0.5s ease-in;
-
+    .nav-logo-responsive {
+      display: block;
+      width: auto;
+      position: relative;
+      height: 90px;
+      padding: 15px;
+    }
   }
-
-  // .nav-logo-responsive {
-  //   display: block;
-  //   width: auto;
-  //   height: 90px;
-  //   padding: 15px;
-  // }
-  .burger{
+  .burger {
     display: block;
-
   }
-  
 }
 
-
-.nav-active{
+.nav-active {
   transform: translateX(0%);
 }
 
-@keyframes navLinkFade{
-  from{
+@keyframes navLinkFade {
+  from {
     opacity: 0;
     transform: translateX(50px);
   }
 
-  to{
+  to {
     opacity: 1;
     transform: translateX(0px);
   }
 }
 
-.toggle .line1{
+.toggle .line1 {
   transform: rotate(-45deg) translate(-5px, 6px);
 }
-.toggle .line2{
+.toggle .line2 {
   opacity: 0;
 }
-.toggle .line3{
+.toggle .line3 {
   transform: rotate(45deg) translate(-5px, -6px);
 }
-
