@@ -76,7 +76,9 @@ nav .nav-logo {
 }
 
 nav .nav-logo-responsive {
-  display: none;
+  display: block;
+  height: 50px;
+  width: auto;
 }
 
 .burger {
@@ -100,10 +102,12 @@ nav .nav-logo-responsive {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   margin: 0;
+  padding-left: 2rem;
+  padding-right: 2rem;
   width: 100%;
 }
 
@@ -192,5 +196,11 @@ nav .nav-logo-responsive {
 .toggle .line3 {
   -webkit-transform: rotate(45deg) translate(-5px, -6px);
           transform: rotate(45deg) translate(-5px, -6px);
+}
+
+@media only screen and (min-width: 820px) {
+  .nav-logo-responsive {
+    display: none !important;
+  }
 }
 /*# sourceMappingURL=navbar.css.map */
