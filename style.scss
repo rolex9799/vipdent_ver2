@@ -1,5 +1,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
+$primary-color: white;
+$secondary-color: #64dfdf;
+$tertiary-color: #6930c3;
+$fourth-color: #5390d9;
+
+$primary-color-txt: rgb(68, 71, 255);
+$secondary-color-txt: rgb(78, 79, 194);
+$tertiary-color-txt: #80ffdb;
 :root {
   --main-txt-color: rgb(68, 71, 255);
   --second-txt-color: rgb(121, 106, 253);
@@ -32,7 +40,8 @@ a {
 
 .banner {
   h1 {
-    font-size: large;
+    font-weight: 400;
+    font-size: 20pt;
     color: var(--main-txt-color);
     text-align: center;
   }
@@ -44,6 +53,7 @@ h2 {
 
 h3 {
   color: var(--main-txt-color);
+  font-weight: 500;
 }
 
 .info1 {
@@ -51,18 +61,24 @@ h3 {
   padding: 2rem;
   margin: auto;
   text-align: center;
+  font-weight: 300;
+  font-size: 16pt;
 }
 .info2 {
   display: block;
   padding: 2rem;
   margin: auto;
   text-align: center;
+  font-weight: 300;
+  font-size: 16pt;
 }
 .info3 {
   display: block;
   padding: 2rem;
   margin: auto;
   text-align: center;
+  font-weight: 300;
+  font-size: 16pt;
 }
 
 .contact-us {
@@ -70,29 +86,36 @@ h3 {
   padding: 2rem;
   border-radius: 2rem;
   background: rgb(255, 217, 0);
-  width: 370px;
+  width: 280px;
   margin: auto;
   text-align: center;
   transition: 0.75s;
   -webkit-transition: 0.75s;
   -ms-transition: 0.75s;
 
-  &:hover {
-    -webkit-animation: shadow-drop-bl 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94)
-      both;
-    animation: shadow-drop-bl 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
-  }
+  -webkit-animation: shadow-drop-bl 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94)
+    both;
+  animation: shadow-drop-bl 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
   button {
     padding: 1rem;
     border-radius: 1rem;
     margin: auto;
-    background: white;
+    background: var(--main-txt-color);
     border-width: 0;
+    color: white;
 
     -webkit-animation: shake-horizontal 0.8s
       cubic-bezier(0.455, 0.03, 0.515, 0.955) both;
     animation: shake-horizontal 0.8s cubic-bezier(0.455, 0.03, 0.515, 0.955)
       both;
+
+    transition: 0.2s;
+
+    &:hover {
+      transition: 0.2s;
+      background: white;
+      color: $secondary-color-txt;
+    }
   }
 }
 
@@ -214,6 +237,45 @@ h3 {
         height: auto;
         width: 250px;
       }
+    }
+  }
+}
+
+.bubble1 {
+  border-radius: 100%;
+  object-fit: cover;
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  animation-duration: 2s;
+  animation-name: bubble1;
+  opacity: 0;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-in;
+  animation-fill-mode: forwards;
+  z-index: -1;
+}
+
+@keyframes bubble1 {
+  0% {
+    left: 0;
+    opacity: 0;
+  }
+  100% {
+    left: 40px;
+    opacity: 0.8;
+  }
+}
+
+@media only screen and (max-width: 720) {
+  @keyframes bubble1 {
+    0% {
+      left: 0;
+      opacity: 0;
+    }
+    100% {
+      left: 40px;
+      opacity: 0.2 !important;
     }
   }
 }
