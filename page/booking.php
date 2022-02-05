@@ -30,8 +30,9 @@ $result2 = $conn->query($sql);
 		</div>
 		<div class="form-group">
 			<label for="message">Ziņa: </label>
-			<textarea name="message" id="message" cols="50" rows="10" style="max-width: 370px; min-width: 370px; max-height: 200px; min-height: 200px"></textarea>
+			<textarea name="message" id="message" cols="50" rows="10"></textarea>
 		</div>
-		<input class="submit btn" type="submit" value="Nosūtīt">
+		<button class="submit btn" type="submit">Nosūtīt</button>
+		<!-- <input class="submit btn" type="submit" value="Nosūtīt"> -->
 	</form>
 </div>

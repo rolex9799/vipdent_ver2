@@ -1,8 +1,4 @@
-:root {
-  --main-txt-color: rgb(68, 71, 255);
-  --second-txt-color: rgb(121, 106, 253);
-}
-
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 .form-panel {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -41,30 +37,121 @@ form {
       -ms-flex-direction: column;
           flex-direction: column;
   padding: 15px 0;
-  color: --main-txt-color;
-}
-
-.submit {
-  -ms-flex-item-align: center;
-      -ms-grid-row-align: center;
-      align-self: center;
-  margin-top: 20px;
-  border: 0;
-  min-width: 120px;
-  padding: 12px 16px;
-  border-radius: 6px;
-  background-color: red;
-  text-align: center;
-  text-decoration: none;
-  color: --second-txt-color;
-}
-
-.submit:hover {
-  cursor: pointer;
-  background-color: turquoise;
+  color: #4447ff;
 }
 
 .form {
-  color: --second-txt-color;
+  color: #4e4fc2;
+}
+
+label {
+  font-weight: 300;
+}
+
+input {
+  padding: 1rem;
+  height: 2rem;
+  border-radius: 1rem;
+  border-color: #6930c3;
+  border-width: 1px;
+  border-style: solid;
+  color: #4447ff;
+  font-size: 14pt;
+}
+
+textarea[name="message"] {
+  resize: none;
+  max-width: 370px;
+  min-width: 370px;
+  max-height: 200px;
+  min-height: 200px;
+  padding: 1rem;
+  height: 2rem;
+  border-radius: 1rem;
+  border-color: #6930c3;
+  border-width: 1px;
+  border-style: solid;
+  color: #4447ff;
+  font-size: 14pt;
+}
+
+.form-panel .btn {
+  padding: 1rem;
+  border-radius: 1rem;
+  margin: auto;
+  background: #6930c3;
+  border-width: 0;
+  color: white;
+  font-weight: 400;
+  font-size: 14pt;
+  -webkit-animation: shake-horizontal 0.8s cubic-bezier(0.455, 0.03, 0.515, 0.955) both;
+  animation: shake-horizontal 0.8s cubic-bezier(0.455, 0.03, 0.515, 0.955) both;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+.form-panel .btn:hover {
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+  color: #4447ff;
+  background: #ffd900;
+}
+
+@-webkit-keyframes shake-horizontal {
+  0%,
+  100% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+  10%,
+  30%,
+  50%,
+  70% {
+    -webkit-transform: translateX(-10px);
+    transform: translateX(-10px);
+  }
+  20%,
+  40%,
+  60% {
+    -webkit-transform: translateX(10px);
+    transform: translateX(10px);
+  }
+  80% {
+    -webkit-transform: translateX(8px);
+    transform: translateX(8px);
+  }
+  90% {
+    -webkit-transform: translateX(-8px);
+    transform: translateX(-8px);
+  }
+}
+
+@keyframes shake-horizontal {
+  0%,
+  100% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+  10%,
+  30%,
+  50%,
+  70% {
+    -webkit-transform: translateX(-10px);
+    transform: translateX(-10px);
+  }
+  20%,
+  40%,
+  60% {
+    -webkit-transform: translateX(10px);
+    transform: translateX(10px);
+  }
+  80% {
+    -webkit-transform: translateX(8px);
+    transform: translateX(8px);
+  }
+  90% {
+    -webkit-transform: translateX(-8px);
+    transform: translateX(-8px);
+  }
 }
 /*# sourceMappingURL=forma.css.map */

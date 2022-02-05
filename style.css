@@ -11,6 +11,7 @@
 
 html {
   background: white;
+  cursor: default;
 }
 
 body {
@@ -46,16 +47,22 @@ h3 {
 .info1 {
   display: block;
   padding: 2rem;
+  margin: auto;
+  text-align: center;
 }
 
 .info2 {
   display: block;
   padding: 2rem;
+  margin: auto;
+  text-align: center;
 }
 
 .info3 {
   display: block;
   padding: 2rem;
+  margin: auto;
+  text-align: center;
 }
 
 .contact-us {
@@ -78,7 +85,7 @@ h3 {
 
 .contact-us button {
   padding: 1rem;
-  border-radius: 2rem;
+  border-radius: 1rem;
   margin: auto;
   background: white;
   border-width: 0;
@@ -231,13 +238,20 @@ h3 {
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
   list-style: none;
+  padding: 0;
 }
 
 .ins ul li {
-  height: 4rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .ins ul li img {
-  height: inherit;
+  height: auto;
+  width: 250px;
 }
 /*# sourceMappingURL=style.css.map */

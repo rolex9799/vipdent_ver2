@@ -11,6 +11,7 @@
 
 html {
   background: white;
+  cursor: default;
 }
 
 body {
@@ -48,14 +49,20 @@ h3 {
 .info1 {
   display: block;
   padding: 2rem;
+  margin: auto;
+  text-align: center;
 }
 .info2 {
   display: block;
   padding: 2rem;
+  margin: auto;
+  text-align: center;
 }
 .info3 {
   display: block;
   padding: 2rem;
+  margin: auto;
+  text-align: center;
 }
 
 .contact-us {
@@ -77,7 +84,7 @@ h3 {
   }
   button {
     padding: 1rem;
-    border-radius: 2rem;
+    border-radius: 1rem;
     margin: auto;
     background: white;
     border-width: 0;
@@ -198,10 +205,14 @@ h3 {
     flex-wrap: wrap;
     justify-content: space-evenly;
     list-style: none;
+    padding: 0;
+
     li {
-      height: 4rem;
+      display: flex;
+      align-items: center;
       img {
-        height: inherit;
+        height: auto;
+        width: 250px;
       }
     }
   }
