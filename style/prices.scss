@@ -1,0 +1,24 @@
+.h1-prices {
+  text-align: center;
+  padding: 2rem;
+}
+
+.price-container {
+  grid-template-rows: repeat(15, 1fr);
+  grid-template-columns: 1fr 1fr;
+}
+
+@media screen and (max-width: 720px) {
+  .price-item {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .price-subitem1 {
+    text-align: center !important;
+  }
+
+  .price-subitem2 {
+    text-align: center !important;
+  }
+}

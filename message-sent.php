@@ -17,7 +17,9 @@ if(isset($_POST)){
 
   } else{
     $info2 = 'ERROR: ' . $sql . '<br>' . $conn->error;
+
+
   }
 }
-
 ?>
+ <?php echo "<script>location.href='./?pg=after-message';</script>"; ?>

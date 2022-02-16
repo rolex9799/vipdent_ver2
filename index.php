@@ -23,12 +23,12 @@ $key = $pgdata[$pgname]['keywords'];
   <meta name="format-detection" content="telephone=no">
 
   <style>
-    <?php include 'style.css'; ?>
-    <?php include 'navbar.css'; ?>
-    <?php include 'navbar-bottom.css'; ?>
-    <?php include 'forma.css'; ?>
-    <?php include 'contacts.css'; ?>
-    <?php include 'prices.css'; ?>
+    <?php include './style/style.css'; ?>
+    <?php include './style/navbar.css'; ?>
+    <?php include './style/navbar-bottom.css'; ?>
+    <?php include './style/forma.css'; ?>
+    <?php include './style/contacts.css'; ?>
+    <?php include './style/prices.css'; ?>
 
 
   </style>
@@ -43,23 +43,28 @@ $key = $pgdata[$pgname]['keywords'];
 <?php include('./partials/nav-top.php')?>
 <?php
   if ($pgname == 'services') {
-    echo include_once('./page/services.php');
+    include_once('./page/services.php');
  
   }
   elseif ($pgname == 'prices'){
-    echo include_once('./page/prices.php');
+    include_once('./page/prices.php');
   }
   elseif($pgname == 'booking'){
-    echo include_once('./page/booking.php');
+    include_once('./page/booking.php');
 
   }
   elseif($pgname == 'contacts'){
-    echo include_once('./page/contacts.php');
+    include_once('./page/contacts.php');
+
+  }
+
+  elseif($pgname == 'after-message'){
+    include_once('./page/after-message.php');
 
   }
 
   else {
-    echo file_get_contents('./page/' . $pgname . '.php');
+    file_get_contents('./page/' . $pgname . '.php');
   }
   ?>
 

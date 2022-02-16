@@ -1,0 +1,30 @@
+.h1-prices {
+  text-align: center;
+  padding: 2rem;
+}
+
+.price-container {
+  -ms-grid-rows: (1fr)[15];
+      grid-template-rows: repeat(15, 1fr);
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+}
+
+@media screen and (max-width: 720px) {
+  .price-item {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .price-subitem1 {
+    text-align: center !important;
+  }
+  .price-subitem2 {
+    text-align: center !important;
+  }
+}
+/*# sourceMappingURL=prices.css.map */
