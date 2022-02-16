@@ -16,10 +16,8 @@ $key = $pgdata[$pgname]['keywords'];
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
   <meta name="description" content="<?php echo $desc; ?>">
   <meta name="keywords" content="<?php echo $key; ?>">
-
   <meta name="format-detection" content="telephone=no">
 
   <style>
@@ -42,6 +40,12 @@ $key = $pgdata[$pgname]['keywords'];
 
 <?php include('./partials/nav-top.php')?>
 <?php
+  
+  if ($pgname == 'index') {
+    include_once('./page/index.php');
+ 
+  }
+  
   if ($pgname == 'services') {
     include_once('./page/services.php');
  
@@ -57,12 +61,10 @@ $key = $pgdata[$pgname]['keywords'];
     include_once('./page/contacts.php');
 
   }
-
   elseif($pgname == 'after-message'){
     include_once('./page/after-message.php');
 
   }
-
   else {
     file_get_contents('./page/' . $pgname . '.php');
   }
