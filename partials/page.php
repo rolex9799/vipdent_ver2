@@ -41,7 +41,7 @@ $pgdata['after-message'] = [
 
   'title' => 'Message sent',
   'description' => 'Contacts description',
-  'keywords' => 'Contacts Page',
+  'keywords' => 'Adter message',
 ];
 
 ?>

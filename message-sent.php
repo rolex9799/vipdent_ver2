@@ -12,13 +12,9 @@ if(isset($_POST)){
   $sql = "INSERT INTO zinas (name, surname, email, message) VALUE (' $name', '$surname', '$email', '$message')";
 
   if($conn->query($sql) === TRUE){
-
     $info2 = 'Ziņa nosūtīta!';
-
   } else{
     $info2 = 'ERROR: ' . $sql . '<br>' . $conn->error;
-
-
   }
 }
 ?>
