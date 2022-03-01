@@ -7,26 +7,12 @@
   text-align: right !important;
   padding-right: 20px;
   width: 75%;
+  padding-bottom: 1.4rem;
 }
 
 .price-subitem2 {
   text-align: left !important;
   padding-right: 10px;
   width: 25%;
-}
-
-.price-container {
-  tr {
-    padding-bottom: 4rem;
-  }
-}
-
-@media screen and (max-width: 720px) {
-  .price-subitem1 {
-    text-align: center;
-  }
-
-  .price-subitem2 {
-    text-align: center;
-  }
+  padding-bottom: 1.4rem;
 }

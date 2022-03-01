@@ -294,7 +294,10 @@ h3 {
 
 @media screen and (max-width: 720px) {
   .bubble1 {
-    visibility: hidden;
+    width: 100px;
+    height: 100px;
+    top: 230px;
+    left: 10px;
   }
 }
 /*# sourceMappingURL=style.css.map */
