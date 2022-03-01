@@ -6,6 +6,10 @@
                 <li><a href="https://www.facebook.com/vipdentist" target="_blank">
                         <img src="assets/icon-facebook.png" alt="facebook.com/vipdentist"></img>
                     </a> </li>
+
+                    <li><a href="https://lv.linkedin.com/company/vipdent-dentistry?trk=public_profile_experience-item_profile-section-card_subtitle-click" target="_blank">
+                        <img src="assets/linkedin-100.png" alt="https://lv.linkedin.com/company/vipdent-dentistry?trk=public_profile_experience-item_profile-section-card_subtitle-click"></img>
+                    </a> </li>
             </ul>
         </div>
 

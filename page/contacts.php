@@ -11,19 +11,41 @@
 	</div>
 	<div class="contacts">
 		<div class="contact-net">
-			<h2>
-				Kontakti
-			</h2>
-			<p>Mob.: <strong><a href="tel:+37129623070">+37129623070</a></strong> <br>
-				Email: <strong>vipdent@inbox.lv</strong>
-			<p>
+			<h2>Kontakti</h2>
+			
+			<table>
+			<tr>
+				<td class="item1">
+					Mob.:
+				</td> 
+				<td class="item2"> 
+					<strong><a href="tel:+37129623070">+37129623070</a></strong>
+				</td>
+			</tr>
+			<tr>
+				<td class="item1">Email:</td>
+				<td class="item2"><strong>vipdent@inbox.lv</strong></td>
+			</tr>
+			</table>
+
 		</div>
 		<div class="contact-bank">
 			<h2>Rekvizīti</h2>
-			<p>Reģ.Nr: <strong>40002180730</strong> <br>Banka: <strong>Luminor</strong><br>
-				Konts: <strong>LV20RIKO0000085116760</strong>
-				<br><br>
-			<p>
+
+			<table>
+			<tr>
+				<td class="item1">Reģ.Nr:</td>
+				<td class="item2"><strong>40002180730</strong></td>
+			</tr>
+			<tr>
+				<td class="item1">Banka:</td>
+				<td class="item2"><strong>Luminor</strong></td>
+			</tr>
+			<tr>
+				<td class="item1">Konts:</td>
+				<td class="item2"><strong>LV20RIKO0000085116760</strong></td>
+			</tr>
+			</table>
 		</div>
 	</div>
 </div>

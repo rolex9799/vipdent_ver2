@@ -2,6 +2,10 @@
   width: 100%;
 }
 
+.content h2 {
+  text-align: center;
+}
+
 .contacts {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -20,10 +24,6 @@
           align-items: center;
   -ms-flex-line-pack: center;
       align-content: center;
-}
-
-.contacts :nth-child(n) {
-  padding: 0 20px 0 20px;
 }
 
 .contact-address {
@@ -46,6 +46,22 @@
   -ms-flex-line-pack: center;
       align-content: center;
   text-align: center;
+}
+
+.contact-net {
+  padding-right: 20px;
+}
+
+.contact-bank {
+  padding-right: 20px;
+}
+
+.item1 {
+  text-align: right;
+}
+
+.item2 {
+  text-align: left;
 }
 
 .g-map {
@@ -72,10 +88,14 @@
   }
   .contacts :nth-child(n) {
     min-width: 100%;
-    -ms-flex-item-align: center;
-        -ms-grid-row-align: center;
-        align-self: center;
-    text-align: center;
+  }
+  .contacts tr .item1 {
+    width: 40%;
+    -webkit-padding-end: 10px;
+            padding-inline-end: 10px;
+  }
+  .contacts tr .item2 {
+    width: 60%;
   }
 }
 /*# sourceMappingURL=contacts.css.map */

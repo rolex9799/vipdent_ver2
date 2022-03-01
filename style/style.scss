@@ -58,7 +58,7 @@ h3 {
 
 .info1 {
   display: block;
-  padding: 2rem;
+  padding: 1rem;
   margin: auto;
   text-align: center;
   font-weight: 300;
@@ -66,7 +66,7 @@ h3 {
 }
 .info2 {
   display: block;
-  padding: 2rem;
+  padding: 1rem;
   margin: auto;
   text-align: center;
   font-weight: 300;
@@ -74,7 +74,7 @@ h3 {
 }
 .info3 {
   display: block;
-  padding: 2rem;
+  padding: 1rem;
   margin: auto;
   text-align: center;
   font-weight: 300;
@@ -117,6 +117,11 @@ h3 {
       color: $secondary-color-txt;
     }
   }
+}
+
+.nvd-logo {
+  height: 80px;
+  width: auto;
 }
 
 @-webkit-keyframes shadow-drop-bl {
@@ -221,6 +226,8 @@ h3 {
 }
 
 .ins {
+  padding-top: 2rem;
+  text-align: center;
   ul {
     display: flex;
     flex-direction: row;
@@ -228,11 +235,12 @@ h3 {
     flex-wrap: wrap;
     justify-content: space-evenly;
     list-style: none;
-    padding: 0;
+    padding-top: 0;
 
     li {
       display: flex;
       align-items: center;
+      padding-bottom: 2rem;
       img {
         height: auto;
         width: 250px;
@@ -247,35 +255,12 @@ h3 {
   width: 200px;
   height: 200px;
   position: absolute;
-  animation-duration: 2s;
-  animation-name: bubble1;
-  opacity: 0;
-  animation-iteration-count: 1;
-  animation-timing-function: ease-in;
-  animation-fill-mode: forwards;
+  opacity: 1;
   z-index: -1;
 }
 
-@keyframes bubble1 {
-  0% {
-    left: 0;
-    opacity: 0;
-  }
-  100% {
-    left: 40px;
-    opacity: 0.8;
-  }
-}
-
-@media only screen and (max-width: 720) {
-  @keyframes bubble1 {
-    0% {
-      left: 0;
-      opacity: 0;
-    }
-    100% {
-      left: 40px;
-      opacity: 0.2 !important;
-    }
+@media screen and (max-width: 720px) {
+  .bubble1 {
+    visibility: hidden;
   }
 }

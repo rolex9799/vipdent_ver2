@@ -1,5 +1,8 @@
 .content {
   width: 100%;
+  h2 {
+    text-align: center;
+  }
 }
 
 .contacts {
@@ -9,10 +12,6 @@
   justify-content: center;
   align-items: center;
   align-content: center;
-
-  :nth-child(n) {
-    padding: 0 20px 0 20px;
-  }
 }
 
 .contact-address {
@@ -24,6 +23,22 @@
   align-items: stretch;
   align-content: center;
   text-align: center;
+}
+
+.contact-net {
+  padding-right: 20px;
+}
+
+.contact-bank {
+  padding-right: 20px;
+}
+
+.item1 {
+  text-align: right;
+}
+
+.item2 {
+  text-align: left;
 }
 
 .g-map {
@@ -39,8 +54,16 @@
     justify-content: center;
     :nth-child(n) {
       min-width: 100%;
-      align-self: center;
-      text-align: center;
+    }
+
+    tr {
+      .item1 {
+        width: 40%;
+        padding-inline-end: 10px;
+      }
+      .item2 {
+        width: 60%;
+      }
     }
   }
 }

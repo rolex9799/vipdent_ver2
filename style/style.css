@@ -48,7 +48,7 @@ h3 {
 
 .info1 {
   display: block;
-  padding: 2rem;
+  padding: 1rem;
   margin: auto;
   text-align: center;
   font-weight: 300;
@@ -57,7 +57,7 @@ h3 {
 
 .info2 {
   display: block;
-  padding: 2rem;
+  padding: 1rem;
   margin: auto;
   text-align: center;
   font-weight: 300;
@@ -66,7 +66,7 @@ h3 {
 
 .info3 {
   display: block;
-  padding: 2rem;
+  padding: 1rem;
   margin: auto;
   text-align: center;
   font-weight: 300;
@@ -106,6 +106,11 @@ h3 {
   transition: 0.2s;
   background: white;
   color: #4e4fc2;
+}
+
+.nvd-logo {
+  height: 80px;
+  width: auto;
 }
 
 @-webkit-keyframes shadow-drop-bl {
@@ -236,6 +241,11 @@ h3 {
   }
 }
 
+.ins {
+  padding-top: 2rem;
+  text-align: center;
+}
+
 .ins ul {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -253,7 +263,7 @@ h3 {
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
   list-style: none;
-  padding: 0;
+  padding-top: 0;
 }
 
 .ins ul li {
@@ -263,6 +273,7 @@ h3 {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  padding-bottom: 2rem;
 }
 
 .ins ul li img {
@@ -277,62 +288,13 @@ h3 {
   width: 200px;
   height: 200px;
   position: absolute;
-  -webkit-animation-duration: 2s;
-          animation-duration: 2s;
-  -webkit-animation-name: bubble1;
-          animation-name: bubble1;
-  opacity: 0;
-  -webkit-animation-iteration-count: 1;
-          animation-iteration-count: 1;
-  -webkit-animation-timing-function: ease-in;
-          animation-timing-function: ease-in;
-  -webkit-animation-fill-mode: forwards;
-          animation-fill-mode: forwards;
+  opacity: 1;
   z-index: -1;
 }
 
-@-webkit-keyframes bubble1 {
-  0% {
-    left: 0;
-    opacity: 0;
-  }
-  100% {
-    left: 40px;
-    opacity: 0.8;
-  }
-}
-
-@keyframes bubble1 {
-  0% {
-    left: 0;
-    opacity: 0;
-  }
-  100% {
-    left: 40px;
-    opacity: 0.8;
-  }
-}
-
-@media only screen and (max-width: 720) {
-  @-webkit-keyframes bubble1 {
-    0% {
-      left: 0;
-      opacity: 0;
-    }
-    100% {
-      left: 40px;
-      opacity: 0.2 !important;
-    }
-  }
-  @keyframes bubble1 {
-    0% {
-      left: 0;
-      opacity: 0;
-    }
-    100% {
-      left: 40px;
-      opacity: 0.2 !important;
-    }
+@media screen and (max-width: 720px) {
+  .bubble1 {
+    visibility: hidden;
   }
 }
 /*# sourceMappingURL=style.css.map */

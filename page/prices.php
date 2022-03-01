@@ -1,55 +1,70 @@
-<h1 class="h1-prices">Zobu ārstēšanas cenrādis</h1>
-
-<div id="price-container">
-  <div class="price-subitem1">Konsultācija, pirmā izmeklēšana</div>
-  <div class="price-subitem2">20 &euro;</div>
-
-  <div class="price-subitem1">Mutes dobuma higiēna</div>
-  <div class="price-subitem2">75 &euro;</div>
-
-  <div class="price-subitem1">Plombēšana ar kompozīta helio materiāliem</div>
-  <div class="price-subitem2">75 - 100 &euro;</div>
-
-  <div class="price-subitem1">Stūra atjaunošana ar iniciziālo malu</div>
-  <div class="price-subitem2">70 &euro;</div>
-
-  <div class="price-subitem1">Ozonterapija ar fizioloģisko šķīdumu</div>
-  <div class="price-subitem2">45 &euro;</div>
-
-  <div class="price-subitem1">Aplikācija ar ozonētu ūdeni</div>
-  <div class="price-subitem2">15 &euro;</div>
-
-  <div class="price-subitem1">
-    Mutes dobuma skalošana ar ozonētu fizioloģisko šķīdumu
-  </div>
-  <div class="price-subitem2">25 &euro;</div>
-
-  <div class="price-subitem1">
-    Mutes dobuma injekcijas ar ozonētu fizioloģisko šķīdumu paradantoza
-    ārstēšanai
-  </div>
-  <div class="price-subitem2">40 &euro;</div>
-
-  <div class="price-subitem1">
-    Aplikācija ar ozonētu eļļu paradantoza ārstēšanai
-  </div>
-  <div class="price-subitem2">25 &euro;</div>
-
-  <div class="price-subitem1">Endodontija trīssakņu zobam</div>
-  <div class="price-subitem2">600 &euro;</div>
-
-  <div class="price-subitem1">Endodontija divsakņu zobam</div>
-  <div class="price-subitem2">400 &euro;</div>
-
-  <div class="price-subitem1">Endodontija viensakņu zobam</div>
-  <div class="price-subitem2">350 &euro;</div>
-
-  <div class="price-subitem1">Rentgens</div>
-  <div class="price-subitem2">10 &euro;</div>
-
-  <div class="price-subitem1">Parciālā plate</div>
-  <div class="price-subitem2">460 &euro;</div>
-
-  <div class="price-subitem1">Totālā plate</div>
-  <div class="price-subitem2">500 &euro;</div>
-</div>
+<h2 class="h2-prices">Cenrādis</h2>
+<table id="price-container">
+   <tr>
+      <td class="price-subitem1">Konsultācija, pirmā izmeklēšana</td>
+      <td class="price-subitem2">20 &euro;</td>
+   </tr>
+   <tr>
+      <td class="price-subitem1">Mutes dobuma higiēna</td>
+      <td class="price-subitem2">75 &euro;</td>
+   </tr>
+   <tr>
+      <td class="price-subitem1">Plombēšana ar kompozīta helio materiāliem</td>
+      <td class="price-subitem2">75 - 100 &euro;</td>
+   </tr>
+   <tr>
+      <td class="price-subitem1">Stūra atjaunošana ar iniciziālo malu</td>
+      <td class="price-subitem2">70 &euro;</td>
+   </tr>
+   <tr>
+      <td class="price-subitem1">Ozonterapija ar fizioloģisko šķīdumu</td>
+      <td class="price-subitem2">45 &euro;</td>
+   </tr>
+   <tr>
+      <td class="price-subitem1">Aplikācija ar ozonētu ūdeni</td>
+      <td class="price-subitem2">15 &euro;</td>
+   </tr>
+   <tr>
+      <td class="price-subitem1">
+         Mutes dobuma skalošana ar ozonētu fizioloģisko šķīdumu
+      </td>
+      <td class="price-subitem2">25 &euro;</td>
+   </tr>
+   <tr>
+      <td class="price-subitem1">
+         Mutes dobuma injekcijas ar ozonētu fizioloģisko šķīdumu paradantoza
+         ārstēšanai
+      </td>
+      <td class="price-subitem2">40 &euro;</td>
+   </tr>
+   <tr>
+      <td class="price-subitem1">
+         Aplikācija ar ozonētu eļļu paradantoza ārstēšanai
+      </td>
+      <td class="price-subitem2">25 &euro;</td>
+   </tr>
+   <tr>
+      <td class="price-subitem1">Endodontija trīssakņu zobam</td>
+      <td class="price-subitem2">600 &euro;</td>
+   </tr>
+   <tr>
+      <td class="price-subitem1">Endodontija tdsakņu zobam</td>
+      <td class="price-subitem2">400 &euro;</td>
+   </tr>
+   <tr>
+      <td class="price-subitem1">Endodontija viensakņu zobam</td>
+      <td class="price-subitem2">350 &euro;</td>
+   </tr>
+   <tr>
+      <td class="price-subitem1">Rentgens</td>
+      <td class="price-subitem2">10 &euro;</td>
+   </tr>
+   <tr>
+      <td class="price-subitem1">Parciālā plate</td>
+      <td class="price-subitem2">460 &euro;</td>
+   </tr>
+   <tr>
+      <td class="price-subitem1">Totālā plate</td>
+      <td class="price-subitem2">500 &euro;</td>
+   </tr>
+</table>

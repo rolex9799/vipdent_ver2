@@ -20,6 +20,7 @@
 			<ul>
 				<li><img src="assets/compensa.png"></img></li>
 				<li><img src="assets/gjensidig.png"></img></li>
+				<li><img class="nvd-logo" src="assets/nvd-logo.jpeg"></img></li>
 			</ul>
 		</div>
 	</div>
