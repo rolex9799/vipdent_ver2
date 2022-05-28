@@ -1,0 +1,27 @@
+$primary-color: white;
+$secondary-color: #64dfdf;
+$tertiary-color: #6930c3;
+$fourth-color: #5390d9;
+
+.sel-services {
+  display: flex;
+  justify-content: space-around;
+  gap: 10px;
+
+  :hover {
+    opacity: 1;
+  }
+
+  div {
+    text-align: center;
+    background: #4447ff;
+    opacity: 0.5;
+    transition: 0.3s;
+    color: white;
+  }
+}
+
+.choice {
+  height: 20rem;
+  width: 40%;
+}

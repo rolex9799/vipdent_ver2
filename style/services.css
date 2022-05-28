@@ -1,0 +1,27 @@
+.sel-services {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  gap: 10px;
+}
+
+.sel-services :hover {
+  opacity: 1;
+}
+
+.sel-services div {
+  text-align: center;
+  background: #4447ff;
+  opacity: 0.5;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  color: white;
+}
+
+.choice {
+  height: 20rem;
+  width: 40%;
+}
+/*# sourceMappingURL=services.css.map */

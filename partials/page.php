@@ -1,4 +1,4 @@
-<?php   
+<?php
 
 $pgdata = array();
 
@@ -40,8 +40,20 @@ $pgdata['contacts'] = [
 $pgdata['after-message'] = [
 
   'title' => 'Ziņa nosūtīta',
-  'description' => 'Contacted',
-  'keywords' => 'Contacts Page',
+  'description' => 'Ziņa nosūtīta',
+  'keywords' => 'Ziņa nosūtīta',
 ];
 
-?>
+$pgdata['stom'] = [
+
+  'title' => 'Stomatoloģija',
+  'description' => 'Stomatoloģija',
+  'keywords' => 'Stomatoloģija',
+];
+
+$pgdata['ozon'] = [
+
+  'title' => 'Ozonterapija',
+  'description' => 'Ozonterapija',
+  'keywords' => 'Ozonterapija',
+];
