@@ -30,6 +30,13 @@ $pgdata['booking'] = [
   'keywords' => 'Booking, Page',
 ];
 
+$pgdata['login'] = [
+
+  'title' => 'Login page',
+  'description' => 'Login description',
+  'keywords' => 'Login, Page',
+];
+
 $pgdata['contacts'] = [
 
   'title' => 'Contacts page',
