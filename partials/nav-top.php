@@ -6,7 +6,7 @@
 		<li><a href="./?pg=prices">Cenrādis</a></li>
 		<li><a href="./?pg=contacts">Kontakti</a></li>
 		<li><a href="./?pg=booking">Pieraksts</a></li>
-		<li><a href="./?pg=login">Ieiet</a></li>
+		<!-- <li><a href="./?pg=login">Ieiet</a></li> -->
 	</ul>
 	<div class="logo_and_burger">
 		<a href="./index.php"><img class="nav-logo-responsive" src="assets/logo/logo.png"></a>
