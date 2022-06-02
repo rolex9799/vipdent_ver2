@@ -52,8 +52,11 @@ $key = $pgdata[$pgname]['keywords'];
     include_once('./page/after-message.php');
   } elseif ($pgname == 'login') {
     include_once('./page/login.php');
-  }
-  else {
+  } elseif ($pgname == 'stom') {
+    include_once('./page/stom.php');
+  } elseif ($pgname == 'ozon') {
+    include_once('./page/ozon.php');
+  } else {
     file_get_contents('./page/' . $pgname . '.php');
   }
   ?>
