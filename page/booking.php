@@ -1,4 +1,6 @@
+
 <?php 
+include 'after-message.php';
 
 require_once('./partials/config.php');
 
@@ -8,6 +10,8 @@ $sql = "SELECT * FROM contacts WHERE id = $kontakti";
 
 
 $result2 = $conn->query($sql);
+
+
 ?>
 
 
@@ -32,7 +36,7 @@ $result2 = $conn->query($sql);
 			<label for="message">Ziņa: </label>
 			<textarea name="message" id="message" cols="50" rows="10"></textarea>
 		</div>
-		<button class="submit btn" type="submit">Nosūtīt</button>
+		<button class="submit btn" name="submit" type="submit">Nosūtīt</button>
 		<!-- <input class="submit btn" type="submit" value="Nosūtīt"> -->
 	</form>
 </div>
