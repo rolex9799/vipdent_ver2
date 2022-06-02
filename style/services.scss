@@ -25,3 +25,74 @@ $fourth-color: #5390d9;
   height: 20rem;
   width: 40%;
 }
+
+.element-container {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  padding: 0;
+  img {
+    width: 100%;
+    height: auto;
+  }
+}
+.element {
+  text-align: center;
+  padding-top: 3rem;
+  padding-inline: 1rem;
+}
+
+//expanding options in stomatoloģija
+ul a + ul {
+  max-height: 0;
+  overflow: hidden;
+  transition: 0.5s linear;
+}
+ul a:focus + ul {
+  max-height: 15em;
+}
+/* only select that link , here using the href attribute */
+a[href="expand"]:focus {
+  pointer-events: none;
+}
+
+.options-container {
+  margin: 1rem;
+  ul {
+    list-style: none;
+    margin: auto;
+    padding: 0;
+  }
+  li {
+    padding: 0;
+  }
+  a {
+    display: block;
+    margin: 5px;
+    height: 2rem;
+    border-radius: 0.5rem;
+    border-width: 0px;
+    border-style: double;
+    width: auto;
+    padding: 0.3rem;
+    padding-left: 2rem;
+    background-color: #4447ff;
+    color: white;
+  }
+  p {
+    text-align: justify;
+    color: #4447ff;
+  }
+}
+
+@media screen and (min-width: 720px) {
+  .element {
+    font-size: 1.2rem;
+  }
+}
+
+@media screen and (min-width: 980px) {
+  .element {
+    font-size: 1.5rem;
+    padding-top: 25%;
+  }
+}
