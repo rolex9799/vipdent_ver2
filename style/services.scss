@@ -5,10 +5,11 @@ $fourth-color: #5390d9;
 
 .sel-services {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   flex-wrap: wrap;
   padding-top: 3rem;
   height: 60vh;
+  font-size: 1.2rem;
 
   div {
     margin: auto;
@@ -127,15 +128,29 @@ a[href="expand"]:focus {
   }
 }
 
-@media screen and (min-width: 720px) {
-  .element {
-    font-size: 1.2rem;
-  }
-}
+// @media screen and (min-width: 720px) {
+//   .element {
+//     font-size: 1.2rem;
+//   }
+//   .sel-services {
+//     flex-direction: row;
+//     .choice {
+//       width: 400px;
+//     }
+//   }
+// }
 
-@media screen and (min-width: 980px) {
+@media (max-width: 720px) {
   .element {
-    font-size: 1.5rem;
-    padding-top: 25%;
+    font-size: 1rem;
+  }
+  .sel-services {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    .choice {
+      width: 100%;
+      height: 200px;
+    }
   }
 }
