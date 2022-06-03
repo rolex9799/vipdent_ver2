@@ -2,13 +2,19 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  gap: 10px;
-  height: 50vh;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding-top: 3rem;
+  height: 60vh;
 }
 
 .sel-services div {
+  margin: auto;
+  height: 200px;
   text-align: center;
   background: #4447ff98;
   opacity: 0.5;
@@ -21,9 +27,9 @@
   background: #4447ff;
 }
 
-.choice {
+.sel-services .choice {
   height: 10rem;
-  width: 40%;
+  min-width: 300px;
 }
 
 .element-container {
@@ -44,6 +50,7 @@
   padding-top: 3rem;
   padding-left: 1rem;
   padding-right: 1rem;
+  font-weight: 300;
 }
 
 .element2 {

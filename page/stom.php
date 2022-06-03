@@ -7,7 +7,7 @@
 
     <div class="image"><img src="assets/vp7.jpeg" alt=""></img></div>
     <div class="element">
-        <p>Implantoloģiju un zobu protezēšana</p>
+        <p>Implantoloģija un zobu protezēšana</p>
     </div>
 
     <div class="element">

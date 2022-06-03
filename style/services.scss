@@ -5,11 +5,14 @@ $fourth-color: #5390d9;
 
 .sel-services {
   display: flex;
-  justify-content: space-around;
-  gap: 10px;
-  height: 50vh;
+  flex-direction: column;
+  flex-wrap: wrap;
+  padding-top: 3rem;
+  height: 60vh;
 
   div {
+    margin: auto;
+    height: 200px;
     text-align: center;
     background: #4447ff98;
     opacity: 0.5;
@@ -19,11 +22,10 @@ $fourth-color: #5390d9;
       background: #4447ff;
     }
   }
-}
-
-.choice {
-  height: 10rem;
-  width: 40%;
+  .choice {
+    height: 10rem;
+    min-width: 300px;
+  }
 }
 
 .element-container {
@@ -40,6 +42,7 @@ $fourth-color: #5390d9;
   padding-top: 3rem;
   padding-left: 1rem;
   padding-right: 1rem;
+  font-weight: 300;
 }
 
 .element2 {
