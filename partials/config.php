@@ -1,4 +1,4 @@
-<?php 
+<!-- <?php 
 
 $servername = 'localhost';
 $username = 'root';
@@ -13,5 +13,5 @@ if($conn -> connect_error){
 
 // echo "Connected successfully!"
 
-?>
+?> -->
 

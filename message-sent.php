@@ -1,4 +1,4 @@
-<?php
+<!-- <?php
 
 require_once('./partials/config.php');
 
@@ -18,4 +18,4 @@ if(isset($_POST)){
   }
 }
 ?>
- <?php echo "<script>location.href='./?pg=after-message';</script>"; ?>
+ <?php echo "<script>location.href='./?pg=after-message';</script>"; ?> -->

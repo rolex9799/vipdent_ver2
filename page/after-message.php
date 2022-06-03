@@ -1,4 +1,4 @@
-<?php
+<!-- <?php
  if(isset($_POST['submit']))
 $mailto = "vipdent@inbox.lv"; //my email adress
 $name = $_POST['name'];
@@ -34,7 +34,7 @@ if ($result1 && $result2){
 } else {
     $failed = "Atvainojiet, ziņa nav nosūtīta!";
 }
-?> 
+?>  -->
 
 
 <div class="after-message">
