@@ -1,6 +1,5 @@
-<!-- 
-<?php 
-include 'after-message.php';
+
+<!-- <?php 
 
 require_once('./partials/config.php');
 
@@ -32,8 +31,8 @@ if(isset($_POST['email']) && $_POST['email'] != ''){
 		
 		$body .= "From: " . $userName . $userSurname . "\r\n";
 		
-		$body .= "From: ".$userEmail. "\r\n";
-		$body .= "From: ".$message. "\r\n";
+		$body .= "Email: ".$userEmail. "\r\n";
+		$body .= " ".$message. "\r\n";
 		
 		mail($mailto, $messageSubject, $body);
 	
@@ -44,7 +43,8 @@ if(isset($_POST['email']) && $_POST['email'] != ''){
 
 
 if ($message_sent){
-	$success = "Ziņa nosūtīta veiksmīgi!";    
+	$success = "Ziņa nosūtīta veiksmīgi!";
+	  
 } else {
 	$failed = "Atvainojiet, ziņa nav nosūtīta!";
 }
