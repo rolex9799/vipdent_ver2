@@ -1,19 +1,5 @@
 
 
-<!-- <?php 
-
-require_once('./partials/config2.php');
-
-$kontakti = isset($_GET['kontakti']) ? trim(strip_tags($_GET['kontakti'])) : 1;
-
-$sql = "SELECT * FROM contacts WHERE id = $kontakti";
-
-
-$result2 = $conn->query($sql);
-
-
-?> -->
-
 
 <div class="banner">
 

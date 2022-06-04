@@ -50,8 +50,6 @@ $key = $pgdata[$pgname]['keywords'];
     include_once('./page/contacts.php');
   } elseif ($pgname == 'after-message') {
     include_once('./page/after-message.php');
-  } elseif ($pgname == 'login') {
-    include_once('./page/login.php');
   } elseif ($pgname == 'stom') {
     include_once('./page/stom.php');
   } elseif ($pgname == 'ozon') {

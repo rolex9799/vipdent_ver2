@@ -25,6 +25,7 @@ if(isset($_POST['email']) && $_POST['email'] != ''){
 		$userSurname = $_POST['surname'];
 		$messageSubject = $_POST['subject'];
 		$userEmail = $_POST['email'];
+		$message = $_POST['message'];
 		
 		$mailto = "rolandsrepetto@gmail.com";
 		$body = "";
@@ -32,7 +33,7 @@ if(isset($_POST['email']) && $_POST['email'] != ''){
 		$body .= "From: " . $userName . $userSurname . "\r\n";
 		
 		$body .= "Email: ".$userEmail. "\r\n";
-		$body .= " ".$message. "\r\n";
+		$body .= "Message: ".$message. "\r\n";
 		
 		mail($mailto, $messageSubject, $body);
 	
