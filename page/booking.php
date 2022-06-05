@@ -1,7 +1,7 @@
 
 <!-- <?php 
 
-require_once('./partials/config.php');
+require_once('../partials/config.php');
 
 $kontakti = isset($_GET['kontakti']) ? trim(strip_tags($_GET['kontakti'])) : 1;
 
