@@ -1,4 +1,4 @@
-<?php
+<!-- <?php
 
 require_once('./partials/config.php');
 
@@ -28,4 +28,4 @@ if(isset($_POST ['email']) && $_POST['email'] != ''){
   
 }
 
-?>
+?> -->

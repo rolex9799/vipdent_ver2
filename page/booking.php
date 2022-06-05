@@ -1,7 +1,7 @@
 
-<!-- <?php 
+<?php 
 
-require_once('../partials/config.php');
+require_once('./partials/config.php');
 
 $kontakti = isset($_GET['kontakti']) ? trim(strip_tags($_GET['kontakti'])) : 1;
 
@@ -11,7 +11,7 @@ $sql = "SELECT * FROM contacts WHERE id = $kontakti";
 $result2 = $conn->query($sql);
 
 
-?> -->
+?>
 
 
 <?php
@@ -27,7 +27,7 @@ if(isset($_POST['email']) && $_POST['email'] != ''){
 		$userEmail = $_POST['email'];
 		$message = $_POST['message'];
 		
-		$mailto = "rolandsrepetto@gmail.com";
+		$mailto = "vipdent@inbox.lv";
 		$body = "";
 		
 		$body .= "From: " . $userName . $userSurname . "\r\n";
@@ -58,7 +58,7 @@ if ($message_sent){
 	<h1 class="form">
 		Aizsūtitiet mums ziņu!
 	</h1>
-	<form method="POST" action="">
+	<form method="POST" action="message-sent.php">
 		<div class="form-group">
 			<label for="name">Vārds: </label>
 			<input type="text" id="name" name="name">

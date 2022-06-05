@@ -1,4 +1,4 @@
-<?php 
+<!-- <?php 
 
 $servername = 'localhost';
 $username = 'root';
@@ -13,7 +13,7 @@ if($conn -> connect_error){
 
 // echo "Connected successfully!"
 
-?>
+?> -->
 
 <!-- <?php
 /* Database credentials. Assuming you are running MySQL

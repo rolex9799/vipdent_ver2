@@ -1,4 +1,4 @@
-<!-- <?php
+<?php
 
 require_once('./partials/config.php');
 
@@ -8,8 +8,9 @@ if(isset($_POST)){
   $surname = $_POST['surname'];
   $email = $_POST['email'];
   $message = $_POST['message'];
+  $subject = $_POST['subject'];
 
-  $sql = "INSERT INTO zinas (name, surname, email, message) VALUE (' $name', '$surname', '$email', '$message')";
+  $sql = "INSERT INTO zinas (name, surname, email, message, subject) VALUE (' $name', '$surname', '$email', '$message', '$subject')";
 
   if($conn->query($sql) === TRUE){
     $info2 = 'Ziņa nosūtīta!';
@@ -18,4 +19,4 @@ if(isset($_POST)){
   }
 }
 ?>
- <?php echo "<script>location.href='./?pg=after-message';</script>"; ?> -->
+ <?php echo "<script>location.href='./?pg=after-message';</script>"; ?>

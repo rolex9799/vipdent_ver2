@@ -1,6 +1,4 @@
 
-
-
 <div class="after-message">
     
 <h3>
