@@ -13,7 +13,7 @@
 			<h3>Sazinies ar mums!</h3>
 			<p>Vai Jums ir jautājumi?</p>
 			<p>Vēlies pierakstīties?</p>
-			<button onclick="location.href = './?pg=booking'">Rakstīt</button>
+			<a href="mailto:vipdent@inbox.lv">Rakstīt</a>
 		</div>
 		<div class="ins">
 			<h3>Sadarbībā ar:</h3>
@@ -24,4 +24,5 @@
 			</ul>
 		</div>
 	</div>
-</main>
+<!-- </main>
+<button onclick="location.href = './?pg=booking'">Rakstīt</button> -->
