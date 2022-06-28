@@ -3,7 +3,7 @@
 		<h2>
 			Mēs atrodamies
 		</h2>
-		<p><strong>Kr. Valdemāra iela 17a</strong><br>2.stāvs. pa labi , durvju kods: 30 Atslēga 7512
+		<p><strong>Kr. Valdemāra iela 17a</strong><br>2.stāvs. pa labi , durvju kods: 5
 		</p>
 	</div>
 	<div class="g-map">
