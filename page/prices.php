@@ -6,7 +6,7 @@
    </tr>
    <tr>
       <td class="price-subitem1">Mutes dobuma higiēna</td>
-      <td class="price-subitem2">100 &euro;</td>
+      <td class="price-subitem2">90 &euro;</td>
    </tr>
    <tr>
       <td class="price-subitem1">Plombēšana ar kompozīta helio materiāliem</td>
