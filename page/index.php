@@ -14,7 +14,7 @@
 			<div class="boxes">
 			<div class="ukraina">
 			
-			<img src="assets/ukraine.jpg"></img>
+			<!-- <img src="assets/ukraine.jpg"></img> -->
 			<p>Ārstējam zobus ukraiņu bērniem bez maksas!</p>
 			<p>Pieaugušajiem no Ukrainas - 20% atlaide!</p>
 
