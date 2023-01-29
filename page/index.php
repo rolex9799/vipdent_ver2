@@ -11,17 +11,27 @@
 
 			<h1 class="homePT">Protezēšanas konsultācija bez maksas!</h1>
 
-				
+			<div class="boxes">
+			<div class="ukraina">
 			
-			<!-- Ārstējam zobus ukraiņu bērniem bez maksas!
-			Pieaugušajiem no Ukrainas - 20% atlaide!
-		 -->
-		<div class="contact-us">
-			<h3>Sazinies ar mums!</h3>
-			<p>Vai Jums ir jautājumi?</p>
-			<p>Vēlies pierakstīties?</p>
-			<a href="mailto:vipdent@inbox.lv">Rakstīt</a>
-		</div>
+			<img src="assets/ukraine.jpg"></img>
+			<p>Ārstējam zobus ukraiņu bērniem bez maksas!</p>
+			<p>Pieaugušajiem no Ukrainas - 20% atlaide!</p>
+
+			</div>
+
+
+
+<div class="contact-us">
+<h3>Sazinies ar mums!</h3>
+<p>Vai Jums ir jautājumi?</p>
+<p>Vēlies pierakstīties?</p>
+<a href="mailto:vipdent@inbox.lv">Rakstīt</a>
+</div>
+
+
+			</div>
+			
 		<div class="ins">
 			<h3>Sadarbībā ar:</h3>
 			<ul>
