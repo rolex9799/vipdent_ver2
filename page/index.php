@@ -9,6 +9,13 @@
 			<div class="info2">Augstas kvalitātes zobārstniecība</div>
 			<div class="info3">Ar modernu Itālijā un Vācijā ražotu aprīkojumu</div>
 
+			<h1 class="homePT">Protezēšanas konsultācija bez maksas!</h1>
+
+				
+			
+			<!-- Ārstējam zobus ukraiņu bērniem bez maksas!
+			Pieaugušajiem no Ukrainas - 20% atlaide!
+		 -->
 		<div class="contact-us">
 			<h3>Sazinies ar mums!</h3>
 			<p>Vai Jums ir jautājumi?</p>

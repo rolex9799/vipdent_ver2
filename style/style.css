@@ -292,8 +292,13 @@ h3 {
   z-index: -1;
 }
 
+.homePT{
+  text-align: center;
+}
+
 @media screen and (max-width: 720px) {
   .bubble1 {
+    display: none;
     width: 100px;
     height: 100px;
     top: 230px;

@@ -5,12 +5,16 @@
       <td class="price-subitem2">25 &euro;</td>
    </tr>
    <tr>
-      <td class="price-subitem1">Mutes dobuma higiēna</td>
+      <td class="price-subitem1">Mutes dobuma higiēna (bez Air Flow)</td>
       <td class="price-subitem2">90 &euro;</td>
    </tr>
    <tr>
+      <td class="price-subitem1">Air Flow</td>
+      <td class="price-subitem2">30 &euro;</td>
+   </tr>
+   <tr>
       <td class="price-subitem1">Plombēšana ar kompozīta helio materiāliem</td>
-      <td class="price-subitem2">no 100 &euro;</td>
+      <td class="price-subitem2">no 100 - 250 &euro;</td>
    </tr>
    <tr>
       <td class="price-subitem1">Stūra atjaunošana ar iniciziālo malu</td>
