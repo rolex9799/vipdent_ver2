@@ -17,6 +17,8 @@
 			<!-- <img src="assets/ukraine.jpg"></img> -->
 			<p>Ārstējam zobus ukraiņu bērniem bez maksas!</p>
 			<p>Pieaugušajiem no Ukrainas - 20% atlaide!</p>
+			<p>Лікуємо зуби українським дітям безкоштовно!</p>
+			<p>Для дорослих з України - знижка 20%!</p>
 
 			</div>
 
