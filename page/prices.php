@@ -5,7 +5,7 @@
       <td class="price-subitem2">25 &euro;</td>
    </tr>
    <tr>
-      <td class="price-subitem1">Mutes dobuma higiēna ar Air Flow balināšanu</td>
+      <td class="price-subitem1">Pilna mutes dobuma higiēna ar Air Flow balināšanu un aplikāciju</td>
       <td class="price-subitem2">150 &euro;</td>
    </tr>
    <tr>
