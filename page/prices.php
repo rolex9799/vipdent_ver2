@@ -5,7 +5,7 @@
       <td class="price-subitem2">25 &euro;</td>
    </tr>
    <tr>
-      <td class="price-subitem1">Mutes dobuma higiēna (bez Air Flow)</td>
+      <td class="price-subitem1">Mutes dobuma higiēna ar Air Flow</td>
       <td class="price-subitem2">150 &euro;</td>
    </tr>
    <tr>
@@ -105,6 +105,6 @@
       <td class="price-subitem1">
          Anastēzija
       </td>
-      <td class="price-subitem2">10 &euro;</td>
+      <td class="price-subitem2">20 &euro;</td>
    </tr>
 </table>
