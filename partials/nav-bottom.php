@@ -20,7 +20,6 @@
                 <li><a class="selection" href="./?pg=services">Pakalpojumi</a></li>
                 <li><a class="selection" href="./?pg=prices">Cenrādis</a></li>
                 <li><a class="selection" href="./?pg=contacts">Kontakti</a></li>
-                //<li><a class="selection" href="./?pg=booking">Pieraksts</a></li>
             </ul>
         </div>
     </div>
