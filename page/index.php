@@ -22,18 +22,26 @@
 
 			</div>
 
+			<div class="invalidi">
+			<p>Mūsu klīnika nodrošina vides pieejamību cilvēkiem ar kustības traucējumiem.
+				Tā kā mēs strādājam ar iepriekšējo pierakstu, lūdzam, 
+				zvanīt mūsu administrātoram pa tālruni +37129623070</p>
+			</div>
 
 
-<div class="contact-us">
-<h3>Sazinies ar mums!</h3>
-<p>Vai Jums ir jautājumi?</p>
-<p>Vēlies pierakstīties?</p>
-<a href="mailto:vipdent@inbox.lv">Rakstīt</a>
-</div>
+			<div class="contact-us">
+			<h3>Sazinies ar mums!</h3>
+			<p>Vai Jums ir jautājumi?</p>
+			<p>Vēlies pierakstīties?</p>
+			<a href="mailto:vipdent@inbox.lv">Rakstīt</a>
+			</div>
+
+
 
 
 			</div>
-			
+
+
 		<div class="ins">
 			<h3>Sadarbībā ar:</h3>
 			<ul>
