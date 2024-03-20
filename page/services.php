@@ -4,8 +4,8 @@
 
     </div>
 
-    <div class="choice fade-in" onclick="location.href = './?pg=ozon'">
+    <!-- <div class="choice fade-in" onclick="location.href = './?pg=ozon'">
         <br>Ozonterapija
 
-    </div>
+    </div> -->
 </div>

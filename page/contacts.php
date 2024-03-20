@@ -3,11 +3,11 @@
 		<h2>
 			Mēs atrodamies
 		</h2>
-		<p><strong>Kr. Valdemāra iela 17a</strong><br>2.stāvs. pa labi , durvju kods: 5
+		<p><strong>Elizabetes iela 57, LV-1050</strong><br>pagalmā pa kreisi, durvju kods: 2222A
 		</p>
 	</div>
 	<div class="g-map">
-		<iframe id="g-map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2175.5644441000236!2d24.1102594159057!3d56.95626328089234!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46eecfcfc07ef41f%3A0xd4e8ff9fc416568b!2zS3JpxaFqxIHFhmEgVmFsZGVtxIFyYSBpZWxhIDE3QSwgQ2VudHJhIHJham9ucywgUsSrZ2EsIExWLTEwMTAsIExhdHZpYQ!5e0!3m2!1sen!2suk!4v1642282322622!5m2!1sen!2suk" width="400" height="200" style="border:0;" allowfullscreen="" loading="lazy">
+	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4351.397535029698!2d24.11607007671933!3d56.95396209884091!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46eecfcdfbc12cd5%3A0xa9001699491fa91a!2sElizabetes%20iela%2057%2C%20Centra%20rajons%2C%20R%C4%ABga%2C%20LV-1050%2C%20Latvia!5e0!3m2!1sen!2sch!4v1710953327976!5m2!1sen!2sch" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
 		</iframe>
 		<div class="loader-wrap">
